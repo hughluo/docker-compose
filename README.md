@@ -13,7 +13,7 @@ There will be strictly no `latest` tag in image version. Always use the explicit
 * The port number will be the same as in production. 
 For example, the port `mysql` listen to will be `3306`.
 
-* If it should be persistence in production, then it will
+* If there should have data persistence in production, then it will
 
 ### persistence via volume
 The persistenc will be done via `volume` provided by docker.
