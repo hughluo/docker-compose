@@ -6,6 +6,9 @@ collection of handy docker-compose recipes for development
 ### all wexort
 username is `wexort`, password is `wexort`, if there is any other users (e.g root, admin), password is also `wexort`
 
+### no latest
+There will be strictly no `latest` tag in image version. Always use the explicit version number to keep the behaviour predictable.
+
 ### just like production
 * The port number will be the same as in production. 
 For example, the port `mysql` listen to will be `3306`.
